@@ -1,0 +1,19 @@
+1) Selectionner piece -> diagramme sequence
+			chercher le type de pion 1.1 -> diagramme sequence 
+2) afficherPositionPossible:
+			PositionStatic(get Position cases reglement du jeu)   2.1 -> diagramme sequence
+			PositionDynamique (Position calculer cases position possible) 
+				Pion : Etat (pris ou pas)
+
+
+3) DeplacerPiece
+
+
+JeuEchec demmande à la pièce de déplacer ses position réglementaire possible 
+La pièce lui retourne les infos(liste des positions)
+Pour chaque position trouvé, retourne état de la case prise ou pas
+
+pattern Observateur(class : data, position, observateur = actualisation) -> position ?
+
+ACN position retourne la position de la pièce précedemment enregistré
+ 
